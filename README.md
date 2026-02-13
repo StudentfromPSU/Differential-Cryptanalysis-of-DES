@@ -52,10 +52,32 @@ subkey bits of the final round in DES.
 
 ---
 
-## 🚀 How to Build
+## 📊 Example Output
 
-Using g++:
+- Encrypted ciphertext (HEX)
+- Real last-round subkey bits
+- Top key candidates
+- Match statistics
+- Attack success rate (%)
 
-```bash
-g++ main.cpp -o des_attack
-./des_attack
+---
+
+## 🎯 Educational Purpose
+
+This project was developed as an educational demonstration of:
+
+- Symmetric encryption internals
+- Feistel network structure
+- Practical cryptanalysis concepts
+- Statistical key recovery techniques
+
+---
+
+⚠ Disclaimer
+
+DES is cryptographically broken and should not be used in real systems.
+This implementation is for educational and research purposes only.
+
+---
+
+👨‍💻 Author: Stanislau Chaiko
